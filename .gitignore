@@ -6,26 +6,20 @@
 # Mengabaikan semua folder node_modules di manapun letaknya (backend/frontend)
 **/node_modules
 
-# == 2. File Rahasia & Environment (Sangat Penting) ==
-# Mengabaikan semua file .env yang berisi kunci API dan password
-**/.env
-**/.env.*.local
-**/.env.local
-
-# == 3. Folder Build & Cache ==
+# == 2. Folder Build & Cache ==
 # Mengabaikan folder build dari Next.js (di dalam frontend)
 /frontend/.next/
 
 # Mengabaikan folder cache lainnya
 .vercel/
 
-# == 4. Log Files ==
+# == 3. Log Files ==
 # Mengabaikan file log dari npm, yarn, dll.
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# == 5. File Sistem Operasi ==
+# == 4. File Sistem Operasi ==
 # Mengabaikan file sistem dari MacOS dan Windows
 .DS_Store
 Thumbs.db
